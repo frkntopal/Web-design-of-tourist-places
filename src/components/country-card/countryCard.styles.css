@@ -1,0 +1,35 @@
+.card-container {   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    flex: 1 0 300px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+.img-box{
+ width: 450px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: flex;
+  
+  
+
+}
+.card-box {
+    
+    margin: 20px;
+    border-radius: 10px;
+}
+.title {
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    
+}

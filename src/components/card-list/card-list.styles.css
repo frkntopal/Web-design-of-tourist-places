@@ -1,0 +1,6 @@
+.country-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
